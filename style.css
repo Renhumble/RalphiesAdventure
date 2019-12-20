@@ -1,0 +1,56 @@
+/* CSS Demo - Professor Loveless 11/12/19 */
+
+/*syntax = selector {declaration (property: value);}
+ example h1 {color: #ff0000;} */
+
+/* More about Web Safe Fonts - https://websitesetup.org/web-safe-fonts-html-css/ */
+/* Bonus - how do we import a font from Google Fonts? - fonts.google.com */
+
+/*------------------ */
+/* General Style */
+/*------------------ */
+
+/* background-color: c3fdff; //// color: #000; */
+
+body {
+  /* padding, background-color */
+background-color: #c3fede;
+padding: 50px;
+padding-top: 75px;
+font-size: 20;
+}
+
+/*style h1, h2, h3, h4, h5, h6 */
+a {
+  color: black;
+  font-size: 20;
+  text-decoration: none;
+  /* color, text-decoration */
+}
+p>a {
+  font-size: 10;
+
+}
+/* for more about :hover selectors: https://www.w3schools.com/cssref/sel_hover.asp */
+a:hover {
+  color: #0000ff;
+}
+h1 {
+  font-size: 25;
+}
+#Storytitle {
+  color: black;
+}
+
+.choice-light {
+  background-color: #c43e00;
+}
+.choice-dark {
+  background-color: #003b8e;
+}
+
+
+/* Make the page of each choice have a different background-color and text color */
+
+/* Choice 1 - background-color: #c43e00, color: #fff;*/
+/* Choice 2 - background-color: #003b8e, color: #fff;*/
